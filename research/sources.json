@@ -1,0 +1,192 @@
+[
+  {
+    "id": "S01",
+    "title": "Claude Code best practices",
+    "type": "official",
+    "url": "https://code.claude.com/docs/en/best-practices",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Verification, project instructions, selective planning.",
+    "limitation": "Vendor guidance; no local comparison."
+  },
+  {
+    "id": "S02",
+    "title": "Rethinking skills and prompts for GPT-6 Astra",
+    "type": "official",
+    "url": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Lean instructions, scope, completion.",
+    "limitation": "Model-specific vendor guidance."
+  },
+  {
+    "id": "S03",
+    "title": "Effective context engineering for AI agents",
+    "type": "official",
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Selective retrieval and durable notes.",
+    "limitation": "Engineering guidance, not universal thresholds."
+  },
+  {
+    "id": "S04",
+    "title": "Effective harnesses for long-running agents",
+    "type": "official",
+    "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Incremental progress and verification.",
+    "limitation": "Specific harness experience; transfer requires testing."
+  },
+  {
+    "id": "S05",
+    "title": "Using GPT-6",
+    "type": "official",
+    "url": "https://developers.openai.com/api/docs/guides/latest-model",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Model-specific configuration and lean prompting.",
+    "limitation": "Mutable latest-model URL; reverify before implementation."
+  },
+  {
+    "id": "S06",
+    "title": "Grok models",
+    "type": "official",
+    "url": "https://docs.x.ai/developers/models",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Current catalog reference.",
+    "limitation": "Availability and billing not verified for this account."
+  },
+  {
+    "id": "S07",
+    "title": "Grok prompt caching cookbook",
+    "type": "official",
+    "url": "https://docs.x.ai/cookbook/examples/prompt-caching",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Stable prefix and conversation state example.",
+    "limitation": "SDK and model specific; no projected savings."
+  },
+  {
+    "id": "S08",
+    "title": "Grok cache mechanics",
+    "type": "official",
+    "url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/how-it-works",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Prefix matching and cache limitations.",
+    "limitation": "Integration surface differs from SDK cookbook."
+  },
+  {
+    "id": "S09",
+    "title": "Aider repository map",
+    "type": "project",
+    "url": "https://github.com/Aider-AI/aider/blob/main/aider/website/docs/repomap.md",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Symbol maps and relevance ranking.",
+    "limitation": "Read documentation only; mutable branch."
+  },
+  {
+    "id": "S10",
+    "title": "Superpowers",
+    "type": "project",
+    "url": "https://github.com/obra/superpowers",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Composable development workflows.",
+    "limitation": "Not installed or tested; marketing claims are unvalidated."
+  },
+  {
+    "id": "S11",
+    "title": "Get Shit Done documentation",
+    "type": "project",
+    "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/README.md",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Spec and context-oriented workflow.",
+    "limitation": "Documentation overview only; no measured efficacy."
+  },
+  {
+    "id": "S12",
+    "title": "promptfoo",
+    "type": "project",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Evaluation toolkit candidate.",
+    "limitation": "Not configured; prompt evaluation differs from patch acceptance."
+  },
+  {
+    "id": "S13",
+    "title": "Grok Build getting started",
+    "type": "official-project",
+    "url": "https://github.com/xai-org/grok-build/blob/main/crates/codegen/xai-grok-pager/docs/user-guide/01-getting-started.md",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Native coding client and execution surfaces.",
+    "limitation": "Mutable branch; installed version not checked."
+  },
+  {
+    "id": "S14",
+    "title": "Grok Build overview",
+    "type": "official",
+    "url": "https://docs.x.ai/build/overview",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Official product entry point.",
+    "limitation": "Account access unverified."
+  },
+  {
+    "id": "S15",
+    "title": "Claude workflow: workstation and ticket",
+    "type": "community-firsthand",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1taelgl/what_improved_my_claude_code_workflow_stop/",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Author reports benefits from explicit tickets.",
+    "limitation": "Self-promotion; anecdote; not technical verification."
+  },
+  {
+    "id": "S16",
+    "title": "Is anyone using Grok for coding?",
+    "type": "community-firsthand",
+    "url": "https://www.reddit.com/r/grok/comments/1wqtnpg/is_anyone_actually_using_grok_for_coding/",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Mixed user experiences.",
+    "limitation": "Uncontrolled model/harness/billing differences."
+  },
+  {
+    "id": "S17",
+    "title": "Grok Build feedback after a few days",
+    "type": "community-firsthand",
+    "url": "https://www.reddit.com/r/grok/comments/1u8ddar/grok_build_feedback_from_a_few_days_of_use/",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Resource and permission complaints plus positive replies.",
+    "limitation": "Unverified allegations on older setups; not current product facts."
+  },
+  {
+    "id": "S18",
+    "title": "Early-2025 developer productivity study",
+    "type": "empirical",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Measured outcomes can disagree with perceived productivity.",
+    "limitation": "Older tools and experienced maintainers; not generalizable to current models."
+  },
+  {
+    "id": "S19",
+    "title": "Developer productivity experiment update",
+    "type": "empirical-update",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "retrieved": "2026-10-18",
+    "access": "opened",
+    "takeaway": "Follow-up and experiment-design limitations.",
+    "limitation": "Does not establish a current universal productivity effect."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "run_id": "REPLACE",
+  "task_id": "REPLACE",
+  "task_revision": "REPLACE",
+  "repo_commit": "REPLACE",
+  "provider": "REPLACE",
+  "model": "REPLACE",
+  "harness": "REPLACE",
+  "configuration": "REPLACE",
+  "accepted": null,
+  "elapsed_seconds": null,
+  "human_minutes": null,
+  "cost_usd": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "evidence": "REPLACE",
+  "notes": ""
+}
