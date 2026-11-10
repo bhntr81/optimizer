@@ -6,7 +6,13 @@
 - Portable task, debugging, review, handoff, and instruction templates.
 - Offline run validation and a descriptive scorecard with tests.
 
-## Next: establish a baseline
+- Phase 2 (2026-11-10): README rewritten to match the implementation, public-repo hygiene pass, scorecard checked against a scratch dataset, [research update list](../research/UPDATES_NEEDED.md) and [readiness assessment](BENCHMARK_READINESS.md).
+
+## Next: pilot, then baseline
+
+First run the one-task, one-provider pilot described in [BENCHMARK_READINESS](BENCHMARK_READINESS.md) to test the measurement process. Proceed to the baseline below only after the pilot's gaps are resolved.
+
+### Baseline
 
 Select a representative target repository and six tasks: a bug, a feature, a refactor, a UI change, a performance change, and a test repair. Replace inapplicable categories rather than inventing a workload. Freeze task acceptance and starting commits. Record actual model and client versions.
 
